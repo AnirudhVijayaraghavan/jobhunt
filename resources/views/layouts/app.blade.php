@@ -16,7 +16,7 @@
 <body class="bg-gray-100 text-gray-900 min-h-screen flex flex-col">
     <header class="bg-white shadow-md">
         <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-            <a href="{{ route('home') }}" class="text-2xl font-semibold text-indigo-600">JobScraper</a>
+            <a wire:navigate href="{{ route('home') }}" class="text-2xl font-semibold text-indigo-600">JobScraper</a>
             {{-- You can add nav links here if needed --}}
         </div>
     </header>
